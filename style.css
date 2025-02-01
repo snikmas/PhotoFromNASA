@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+  margin:0;
+  padding: 0;
+  font-family: 'Noto Sans';
+}
+
+
+
+
+html {
+  color:white;
+  background-color: black;
+}
+
+body {
+  background: no-repeat;
+  background-size:cover;
+  background-position: center center;
+
+}
+
+.display {
+  height:100vh;
+  display: flex;
+  flex-direction: column;
+
+  
+  text-align: center;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+.naming {
+  line-height: 10px;
+  font-size: 56px;
+  
+  font-weight: 200;
+}
+
+form {
+  padding-top:20px;
+  padding-bottom:5px;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;  
+
+}
+
+input, button {
+  padding:4px;
+  margin: 8px;
+
+  font-size: 16px;
+  width:fit-content; 
+}
+
+.description {
+  font-weight: 200;
+  font-size: 16px;
+  font-style: italic;
+}
+
+
+
+
